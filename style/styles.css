@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    background-color: #f4f4f4 !important;
+}
+
+.container{
+    padding-bottom: 15px;
+}
+#services-tab{
+    margin-top: 20px;
+}
+.text-center{
+    list-style: none;
+}
+#services-tab ul li{
+    padding: 5px 30px;
+}
+
+#services-tab ul li a{
+    font-size: 14px;
+    color: #212227;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none;
+}
+
+#services-tab ul li.r-tabs-state-active a{
+    color: #fb527a;
+    font-weight: 700;
+    border-bottom: 3px solid #fb527a;
+    padding-bottom: 5px;
+    transition: border-color 300ms linear;
+}
+
+.service-tab .col-md-6{
+   padding: 0;
+}
+
+.service-tab img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service-tab .tab-bg{
+    background: #ffffff;
+    padding: 59px 30px;
+    min-height: 481px;
+}
+.service-tab h2{
+    color: #797979;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.service-tab h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-tab p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-general{
+    border-radius: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 7px;
+    padding: 12px 47px 12px 27px;
+    transition: all .5s;
+}
+
+.btn-yellow{
+    color: #ffffff;
+    border: 1px solid #fb527a;
+    background: #fb527a;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus{
+    color: #ffffff !important;
+    border: 1px solid #212227;
+    background-color: #212227;
+}
+
